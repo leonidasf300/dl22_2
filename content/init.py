@@ -4,8 +4,8 @@ github_repo = 'leonidasf300/dl22_2'
 #endpoint = 'https://m5knaekxo6.execute-api.us-west-2.amazonaws.com/dev-v0001/rlxmooc'
 # ------ COURSE PARAMS ------
 
-
 zip_file_url ="https://github.com/%s/archive/main.zip"%github_repo
+print(zip_file_url)
 
 def init(force_download=False):
     from IPython.display import display, HTML
