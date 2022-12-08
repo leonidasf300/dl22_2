@@ -8,6 +8,10 @@ zip_file_url ="https://github.com/%s/archive/main.zip"%github_repo
 print(zip_file_url)
 
 def init(force_download=False):
+    print(zip_file_url)
+
+'''
+def init(force_download=False):
     from IPython.display import display, HTML
     js = """
 <meta name="google-signin-client_id"
@@ -32,5 +36,5 @@ def init(force_download=False):
         elif os.path.exists(dirname+"/local"):
             shutil.move(dirname+"/local", "local")
         shutil.rmtree(dirname)
-        
+ '''       
 import requests, zipfile, io, os, shutil, subprocess 
