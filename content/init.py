@@ -8,7 +8,7 @@ zip_file_url ="https://github.com/%s/archive/main.zip"%github_repo
 print(zip_file_url)
 
 def init(force_download=False):
-    print(zip_file_url)#test
+    print(zip_file_url)#test sfasfsa fs sf
 
 '''
 def init(force_download=False):
